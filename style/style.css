@@ -147,7 +147,10 @@ img{
 
 @media screen and (max-width:600px){
   .tiers{
-    width:80%;
+    width:100%;
+  }
+  .ecran1, ecran2{
+  width:500px;
   }
 }
 
