@@ -1,0 +1,240 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+/* -----ECRAN 1------- */
+
+
+.ecran1{
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin:0 auto;
+}
+
+.question{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 48px;
+  font-family: "DTL Prokyon ST Medium",sans-serif;
+  height:54px;
+  margin-top: 242px;
+  margin-bottom: 100px;
+}
+
+.reponses{
+  justify-content: space-between;
+  color:white;
+  display:flex;
+  height:63px;
+  font-size: 20px;
+  font-family: "DTL Prokyon T Light",sans-serif;
+  background-color: orange;
+  text-align: center;
+
+}
+
+.reponse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reponse:hover{
+  background-color: darkorange;
+  border:solid 5px orange;
+  cursor:pointer;
+  font-size: 22px;
+  transition: 0.2s;
+
+}
+.tripes{
+  display:flex;
+  justify-content:center;
+  height:343px;
+  margin-bottom: 50px;
+}
+
+.tiers{
+  width:33%;
+}
+
+.entier{
+  width:100%;
+}
+
+img{
+  width:100%;
+  object-fit: contain;
+}
+
+
+/* -----ECRAN 2------ */
+
+.score{
+  align-items: center;
+  justify-content: end;
+  color:darkorange;
+  display:flex;
+  height:38px;
+  font-size: 30px;
+  font-family: "DTL Prokyon T Light",sans-serif;
+  background-color: yellow;
+  width:75%;
+  padding:30px 0px 30px 15px;
+  border: solid 8px orange;
+}
+
+#textScore{
+  /* position : absolute;
+  top: 825px;
+  left: 675px; */
+  display:flex;
+  width:75%;
+  padding-top:5px;
+  padding-left:10px;
+  color:white;
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
+
+.ecran2{
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin:0 auto;
+}
+
+.result{
+  color:white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 48px;
+  font-family: "DTL Prokyon ST Medium",sans-serif;
+  height:75px;
+  margin-top: 242px;
+  margin-bottom: 50px;
+  text-align:center;
+  padding-top: 50px;
+}
+
+.qsuiv{
+  align-items: center;
+  justify-content: center;
+  color:darkorange;
+  display:flex;
+  height:63px;
+  font-size: 20px;
+  font-family: "DTL Prokyon T Light",sans-serif;
+  background-color: white;
+}
+
+.qsuiv:hover{
+  background-color: darkorange;
+
+  cursor:pointer;
+  font-size: 22px;
+  transition: 0.2s;
+  color:white;
+}
+
+@media screen and (max-width:600px){
+  .tiers{
+    width:80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.question{
+font-size: 60px;
+text-align: center;
+}
+
+
+.reponse{
+height:100px;
+width:30%;
+
+justify-content:center;
+align-items: center;
+
+}
+
+.reponse:hover{
+color:white;
+background-color: black;
+}
+
+.reponses{
+width:1050px;
+font-size: 30px;
+display: flex;
+align-items: center;
+
+
+
+}
+
+.tripes{
+justify-content: center;
+display: flex;
+}
+
+.ecran1{
+justify-content: center;
+align-items: center;
+max-width: 1000px;
+margin:0 auto;
+}
+
+
+.ecran2{
+margin-top: 250px;
+opacity:100;
+}
+
+.result{
+justify-content: center;
+display: flex;
+width:100%;
+font-size: 40px;
+height: 100px;
+align-items: center;
+}
+
+.qsuiv{
+display: flex;
+width: 100%;
+font-size:25px;
+justify-content: center;
+} */
+
+
+/* .ecran1{
+display:none;
+} */
