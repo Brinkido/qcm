@@ -160,15 +160,19 @@ img{
     height:50px;
     font-size: 30px;
     align-items: baseline;
+    margin-bottom: 15px;
   }
 
-.result{height:100px;}
+.result{height:100px;
+font-size:30px;
+flex-wrap: wrap;}
 
 .score{width:100%;  }
 
 
 .tripes{
-  height:220px;
+  height:200px;
+  margin-bottom:15px;
 }
 .reponses{
   font-size:12px;
